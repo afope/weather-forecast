@@ -1,36 +1,31 @@
 import React from 'react';
 import './UserInput.css';
 
-class UserInput extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {value: ''};
-
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
-    }
-
-    handleChange(event) {
-        this.setState({value: event.target.value});
-    }
-
-    handleSubmit(event) {
-        const input = this.state.value;
-        console.log(input);
+class Form extends React.Component {
+    state = {
+        city: '',
+        country: ''
+    };
+    handleSubmit = (event) => {
         event.preventDefault();
-    }
+        const inputCity = this.state.city;
+        const inputCountry = this.state.country;
+        console.log('Event: Form Submit', this.state.city);
+        console.log('Event: Form Submit', this.state.country);
 
-    render() {
+    };
+    render () {
         return (
-            <form onSubmit={this.handleSubmit} className="UserInput">
-                <label>
-                    {this.props.name}
-                    <input type="text" value={this.state.value} onChange={this.handleChange} />
-                </label>
-                <input type="submit" value="Submit" />
+            <form action="" onSubmit={this.handleSubmit}>
+                <input type="text" value={this.state.city}
+                       onChange={(event) => this.setState({city: event.target.value})}  placeholder="city" required />
+                <input type="text" value={this.state.country}
+                       onChange={(event) => this.setState({country: event.target.value})} placeholder="country" required />
+                <button type="submit">Submit</button>
             </form>
+
         );
     }
 }
 
-export default UserInput;
+export default Form;
