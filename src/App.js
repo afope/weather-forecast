@@ -7,8 +7,8 @@ const App = () => {
     return (
         <div className="App">
             <WeatherFc/>
-            <UserInput/>
-            <UserInput/>
+            <UserInput name="City: "/>
+            <UserInput name="Country: "/>
         </div>
         )
 
