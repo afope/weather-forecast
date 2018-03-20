@@ -15,7 +15,8 @@ class UserInput extends React.Component {
     }
 
     handleSubmit(event) {
-        alert('A name was submitted: ' + this.state.value);
+        const input = this.state.value;
+        console.log(input);
         event.preventDefault();
     }
 
