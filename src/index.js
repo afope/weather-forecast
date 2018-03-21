@@ -7,6 +7,7 @@ import createHistory from "history/createBrowserHistory"
 
 import App from './containers/App';
 import HomePage from './containers/HomePage';
+import DailyForecastsPage from './containers/DailyForecastsPage';
 
 const history = createHistory();
 
@@ -15,8 +16,8 @@ ReactDOM.render(
     <Router history={history}>
         <App>
             <Switch>
-                <Route exact path="/" component={HomePage}/>
-                <Route path="/city" component={(props) => <div>City</div>}/>
+                <Route exact path="/" component={HomePage} />
+                <Route path="/daily-forecasts" component={DailyForecastsPage} />
             </Switch>
         </App>
     </Router>,

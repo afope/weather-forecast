@@ -5,7 +5,7 @@ const FormInputLayout = ({ city, country, onInputChange, onSubmit }) => (
         <input type="text" name="city" value={city}
                onChange={onInputChange} placeholder="city" required />
         <input type="text" name="country" value={country}
-               onChange={onInputChange} placeholder="country" required />
+               onChange={onInputChange} placeholder="country-code" required />
         <button type="submit">Submit</button>
     </form>
 );
