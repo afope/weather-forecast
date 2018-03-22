@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => (
     <div className="Header">
-        <h1>Your fairweather friend</h1>
+        <h1></h1>
     </div>
 );
 

@@ -10,7 +10,7 @@ import './App.css';
 export default class App extends Component {
     render() {
         return (
-            <div class="body">
+            <div className="body">
                 <Header />
                 <AppLayout {...this.props} />
                 <Footer />
