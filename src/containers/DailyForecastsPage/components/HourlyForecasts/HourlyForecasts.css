@@ -1,0 +1,11 @@
+.hour-forecast {
+    margin-bottom: 25px;
+}
+
+.hour-forecast p, .hour-forecast h4 {
+    margin: .5rem;
+}
+
+.hour-forecast h4 {
+    font-size: 20px;
+}

@@ -42,9 +42,10 @@ class DailyForecastsPageView extends Component {
             const theDay = weekDays[day];
             console.log(theDay, 'theday');
             return weekDays[day];
-
         });
     };
+
+
 
     render() {
         console.log(this.state);

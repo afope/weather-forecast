@@ -4,7 +4,6 @@
     width: 20%;
     margin-bottom: 16px;
     padding: 0 8px;
-    height: 700px;
     font-family: 'Questrial', sans-serif;
 }
 
@@ -23,10 +22,12 @@
     background-color: white;
     text-align: center;
     padding-bottom: 30px;
+    min-height: 676px;
 }
 
 .card h2 {
     text-align: center;
+    min-height: inherit;
 }
 /* Some left and right padding inside the container */
 .container {
