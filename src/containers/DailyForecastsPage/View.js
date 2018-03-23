@@ -8,7 +8,7 @@ import API from './api';
 
 class DailyForecastsPageView extends Component {
     state = {
-        dailyForecasts: [],
+        dailyForecasts: {},
     };
 
     componentDidMount() {
