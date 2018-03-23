@@ -39,7 +39,10 @@ class DailyForecastsPageView extends Component {
             const dtInMilliSeconds = item.dt * 1000;
             const date = new Date(dtInMilliSeconds);
             const day = date.getDay();
+            const theDay = weekDays[day];
+            console.log(theDay, 'theday');
             return weekDays[day];
+
         });
     };
 

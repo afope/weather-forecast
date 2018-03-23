@@ -5,7 +5,7 @@
     margin-bottom: 16px;
     padding: 0 8px;
     height: 700px;
-
+    font-family: 'Questrial', sans-serif;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -23,7 +23,7 @@
     background-color: white;
     text-align: center;
     padding-bottom: 30px;
-    }
+}
 
 .card h2 {
     text-align: center;
@@ -58,4 +58,9 @@
 
 .button:hover {
     background-color: #555;
+}
+
+.row h1 {
+    text-align: center;
+    color: white;
 }

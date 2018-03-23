@@ -8,7 +8,7 @@ const FormInputLayout = ({ city, country, onInputChange, onSubmit, buildLink }) 
     <div className="FormContainer">
         <form action="" onSubmit={onSubmit}>
             <h3>Simply Weather</h3>
-            <p>View the current weather for your location</p>
+            <p>see the current weather for your location</p>
             <input type="text" name="city" value={city}
                    onChange={onInputChange} placeholder="city" required />
             <input type="text" name="country" value={country}
