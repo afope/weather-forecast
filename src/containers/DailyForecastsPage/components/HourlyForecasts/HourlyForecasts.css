@@ -1,3 +1,11 @@
+.owf {
+    vertical-align: middle;
+}
+
+.owf:before {
+    margin-right: 5px;
+}
+
 .hour-forecast {
     margin-bottom: 25px;
 }
@@ -8,4 +16,5 @@
 
 .hour-forecast h4 {
     font-size: 20px;
+    color: #757197;
 }

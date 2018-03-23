@@ -10,6 +10,7 @@ import HomePage from './containers/HomePage';
 import DailyForecastsPage from './containers/DailyForecastsPage';
 
 import 'sanitize.css/sanitize.css';
+import 'owfont-master/css/owfont-regular.min.css';
 
 const history = createHistory();
 

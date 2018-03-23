@@ -14,6 +14,10 @@
      padding: 20px;
  }
 
+.FormContainer form h3 {
+    color: #6A66E7;
+}
+
  form input {
      height: 40px;
      width: 350px;

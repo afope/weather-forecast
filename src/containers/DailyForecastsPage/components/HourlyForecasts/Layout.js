@@ -13,7 +13,7 @@ const HourlyForecasts = ({hourlyForecasts}) => {
         {hourlyForecasts.map((hourForecast, index) => (
             <div key={index} className="hour-forecast">
                 <h4>{getTime(hourForecast.dt)}</h4>
-                <p>{hourForecast.weather[0].main}</p>
+                <i className={"owf owf-" + hourForecast.weather[0].id}>{hourForecast.weather[0].main}</i>
             </div>
         ))}
     </div>)

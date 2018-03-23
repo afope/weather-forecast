@@ -28,6 +28,7 @@
 .card h2 {
     text-align: center;
     min-height: inherit;
+    color: #6A6AE4;
 }
 /* Some left and right padding inside the container */
 .container {
