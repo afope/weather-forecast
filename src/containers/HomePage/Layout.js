@@ -4,14 +4,13 @@ import Jumbotron from './components/Jumbotron';
 import FormInput from './components/FormInput';
 import './HomePageLayout.css';
 
-const HomePageLayout = () => (
-    <div class="Home">
-        <div className="HomePageLayout">
+const HomePageLayout = (props) => (
+    <div>
+        <div>
             <Jumbotron />
-            <FormInput />
+            <FormInput {...props} />
         </div>
     </div>
-
 );
 
 export default HomePageLayout;

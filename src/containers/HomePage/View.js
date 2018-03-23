@@ -5,6 +5,6 @@ import HomePageLayout from './Layout';
 
 export default class HomePage extends Component {
     render() {
-        return <HomePageLayout />;
+        return <HomePageLayout {...this.props} />;
     }
 }

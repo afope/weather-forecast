@@ -9,6 +9,8 @@ import App from './containers/App';
 import HomePage from './containers/HomePage';
 import DailyForecastsPage from './containers/DailyForecastsPage';
 
+import 'sanitize.css/sanitize.css';
+
 const history = createHistory();
 
 
